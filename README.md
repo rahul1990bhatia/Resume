@@ -17,7 +17,7 @@ Principal Verification Architect with **12+ years of experience** in SoC verific
 
 ## 🌐 View My Resume
 
-**[👉 View Interactive Resume](https://rahul1990bhatia.github.io/resume/)**
+**[👉 View Interactive Resume](https://rahul1990bhatia.github.io/Resume/)**
 
 The resume is fully responsive and can be downloaded as PDF directly from the website.
 
