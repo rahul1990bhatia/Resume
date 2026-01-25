@@ -185,23 +185,26 @@
     
     <div class="section">
         <div class="section-title">Professional Summary</div>
-        <p>Principal Verification Architect with 12+ years of experience across EDA tooling, large-scale SoC verification, and automation-driven verification infrastructure. Expert in specification-driven verification, UVM architecture, IP-XACT standards, low-power verification, functional safety, and AI-augmented engineering workflows. Proven record of reducing verification turnaround time by ~50% and saving 20–30 person-weeks per design cycle.</p>
+        <p>Principal Verification Architect with 12+ years of experience designing and scaling org-wide verification platforms across IP, subsystem, and SoC. Proven track record of establishing enterprise-scale verification architectures adopted across multiple teams, reducing verification turnaround time by ~50% and saving 20–30 person-weeks per design cycle. Deep expertise in specification-driven verification, UVM architecture, low-power and functional safety verification, post-silicon bring-up, and EDA automation. Active contributor to IEEE Accellera IP-XACT standards. Operates at the intersection of hardware verification, software infrastructure, and AI-augmented engineering, with a strong focus on leverage, correctness, and long-term scalability. Leads AI-first engineering initiatives, designing agent-based systems with governance frameworks to automate code reviews, quality enforcement, knowledge access, and workflow integration.</p>
     </div>
     
     <div class="section">
         <div class="section-title">Core Skills</div>
         <div class="skills-content">
             <div class="skill-category">
-                <strong>Verification:</strong> SystemVerilog, UVM, IP/Subsystem/SoC Verification, UVM RAL, Coverage-Driven Verification, Register & Memory Maps
+                <strong>Verification & SoC:</strong> SystemVerilog, UVM, Assertions, Coverage-Driven Verification, IP/Subsystem/SoC Verification, ARM CPUs, AMBA Interconnects, Cache Coherency, UVM RAL, Register & Memory Maps
             </div>
             <div class="skill-category">
-                <strong>Low-Power & Safety:</strong> UPF/IEEE 1801, DVFS, ISO 26262, Functional Safety, FMEDA, Fault Injection
+                <strong>Low-Power & Functional Safety:</strong> UPF/IEEE 1801, Power-Aware Verification, DVFS, Isolation, Retention, Power Sequencing, ISO 26262, ASIL-B, FMEDA, Fault Injection
             </div>
             <div class="skill-category">
-                <strong>Architecture:</strong> ARM CPUs, AMBA Interconnects, IP-XACT (IEEE Accellera), Specification-Driven Design
+                <strong>Software & Infrastructure:</strong> Python, C, Machine-Readable Specifications (JSON, YAML), IP-XACT Standards, CI/CD (Gerrit, Jenkins, CloudBees), Automation-First Platform Design
             </div>
             <div class="skill-category">
-                <strong>Programming & Tools:</strong> Python, C, JSON, YAML, CI/CD (Gerrit, Jenkins, CloudBees), AI-Assisted Verification
+                <strong>Standards & Leadership:</strong> IEEE Accellera IP-XACT, Verification Architecture & Technical Governance, Cross-team Design Reviews, Mentorship & Scaling
+            </div>
+            <div class="skill-category">
+                <strong>AI-First Engineering:</strong> Agent-based, governed LLM integration for code/spec review, MCP-based knowledge access, and workflow automation
             </div>
         </div>
     </div>
@@ -213,51 +216,54 @@
             <div class="job-title">Principal Verification Architect</div>
             <div class="job-date">Apr 2021 – Present</div>
         </div>
-        <div class="company-location">Arm — Cambridge, UK</div>
+        <div class="company-location">Arm — Cambridge, UK | Scope: IP → Subsystem → SoC | Org-scale Verification Infrastructure</div>
+        <div class="impact"><strong>Impact:</strong> Changed how register verification is done across Arm (default platform); eliminated an entire class of integration and consistency failures; improved silicon readiness, predictability, and verification cost at org scale</div>
         <div class="job-description">
             <ul>
-                <li>Architected specification-driven verification infrastructure using JSON/YAML as single source of truth across IP, subsystem, and SoC teams</li>
-                <li>Auto-generated UVM RAL, testbench components, and CI-driven verification flows directly from specifications</li>
-                <li>Scaled verification environments to support IPs with 1000+ register nodes and large configuration spaces</li>
-                <li>Built Python-based automation reducing verification setup time from days to hours</li>
-                <li>Led Arm-wide migration from IP-XACT 2009 to IP-XACT 2014 across 50+ IP teams and multiple silicon programs</li>
-                <li>Contributed to IEEE Accellera IP-XACT standards and served on internal standards review boards</li>
-                <li>Mentored engineers in verification architecture and automation best practices</li>
-                <li>Designed LLM-ready, machine-readable specifications leveraging large language models to accelerate documentation, validation, and test generation</li>
+                <li>Defined and owned Arm's specification-driven verification architecture, establishing machine-readable specifications (JSON/YAML, IP-XACT) as single source of truth across IP, subsystem, and SoC teams</li>
+                <li>Built and scaled verification platforms auto-generating UVM RAL models, testbench components, integration collateral, and CI pipelines directly from specifications</li>
+                <li>Led Arm-wide migration from IP-XACT 2009 to IP-XACT 2014, standardizing integration flows and eliminating manual stitching across 50+ IP and SoC programs</li>
+                <li>Scaled verification infrastructure to support IPs with 1000+ register nodes and large configuration spaces, enabling reuse across multiple product lines</li>
+                <li>Designed Python-based automation and automated pipelines, reducing verification setup time from days to hours and improving regression reliability</li>
+                <li>Served as verification architecture authority, influencing cross-team technical decisions, reviewing designs, and resolving integration bottlenecks</li>
+                <li>Active contributor to IEEE Accellera IP-XACT, shaping standards direction and aligning internal practices with industry roadmaps</li>
+                <li>Mentored senior engineers and tech leads, raising verification quality, consistency, and reuse without formal people management</li>
+                <li>Pioneered AI-augmented verification workflows, designing LLM-ready, deterministic specifications to accelerate documentation, validation, and test generation</li>
+                <li>Architected an AI-first, agent-based engineering platform integrating LLMs into verification workflows for code and specification review, rule-based quality enforcement, AI chat assistance, and automated Jira creation, with strong governance for correctness and traceability</li>
             </ul>
         </div>
-        <div class="impact">Key Impact: ~50% reduction in verification turnaround time; 20–30 person-weeks saved per team per design cycle</div>
         
         <div class="job-header">
             <div class="job-title">Senior SoC Verification Engineer</div>
             <div class="job-date">Mar 2019 – Apr 2021</div>
         </div>
         <div class="company-location">Qualcomm — Noida, India</div>
+        <div class="impact"><strong>Impact:</strong> Faster SoC debug, improved coverage closure, and smoother transition from simulation to silicon</div>
         <div class="job-description">
             <ul>
-                <li>Verified advanced mobile and wearable SoCs across pre-silicon and post-silicon phases</li>
-                <li>Owned full SoC bring-up including reset, clock, power sequencing, boot flow, and cache coherency</li>
-                <li>Developed C-based bring-up and validation programs executed in simulation and on silicon</li>
-                <li>Verified CPUs, interconnects, media IPs, and complex power-management scenarios including DVFS</li>
-                <li>Designed unified coverage aggregation system improving coverage closure efficiency by ~40%</li>
+                <li>Owned full SoC bring-up and validation for advanced mobile and wearable SoCs across pre-silicon and post-silicon phases</li>
+                <li>Led reset, clock, power sequencing, and boot-flow validation, diagnosing complex system-level issues</li>
+                <li>Verified CPUs, interconnects, cache coherency, media IPs, and low-power scenarios including DVFS and power collapse</li>
+                <li>Developed C-based bring-up and validation programs executed both in simulation and on real silicon during post-silicon debug</li>
+                <li>Designed unified coverage aggregation system, consolidating data across tools and improving coverage visibility and closure efficiency by ~40%</li>
             </ul>
         </div>
-        <div class="impact">Key Impact: Reduced SoC debug and coverage closure time by unifying pre-silicon, post-silicon, and multi-tool verification flows</div>
         
         <div class="job-header">
             <div class="job-title">Lead Verification Engineer</div>
             <div class="job-date">Apr 2014 – Mar 2019</div>
         </div>
         <div class="company-location">Cadence Design Systems — Noida, India</div>
+        <div class="impact"><strong>Impact:</strong> Established production-ready verification methodologies for low-power and safety-critical designs</div>
         <div class="job-description">
             <ul>
-                <li>Developed and validated low-power verification solutions using UPF/IEEE 1801 standards</li>
-                <li>Supported customers achieving ISO 26262 ASIL-B functional safety certification</li>
+                <li>Developed and validated low-power verification solutions using UPF/IEEE 1801 for IP- and SoC-level designs</li>
+                <li>Supported customers in achieving ISO 26262 ASIL-B functional safety certification</li>
                 <li>Validated functional safety flows including FMEDA, fault injection, and requirement traceability</li>
-                <li>Delivered customer training sessions and technical talks on verification methodologies</li>
+                <li>Worked closely with customers to deploy scalable verification methodologies in real production environments</li>
+                <li>Delivered customer training sessions and technical talks on low-power and safety-critical verification</li>
             </ul>
         </div>
-        <div class="impact">Key Impact: Established production-ready verification methodologies for low-power and safety-critical designs</div>
     </div>
     
     <div class="section">
@@ -272,8 +278,7 @@
     
     <div class="section">
         <div class="section-title">Awards & Certifications</div>
-        <p><strong>Awards:</strong> Arm Quality Award • Qualcomm Best Solution Award • Cadence Best Poster Award</p>
-        <p><strong>Certifications:</strong> Machine Learning & Deep Learning (Stanford) • Python (MITx) • UVM (Siemens)</p>
+        <p><strong>Awards:</strong> Arm Quality Award (Verification Infrastructure Impact) • Qualcomm Best Solution Award (Automated Coverage Collection) • Cadence Best Poster Award (Functional Safety Verification)</p>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
